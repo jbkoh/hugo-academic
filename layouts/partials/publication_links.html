@@ -41,3 +41,8 @@
   {{ .name }}
 </a>
 {{ end }}
+{{ range $.Params.award_custom}}
+<a class="btn btn-secondary btn-outline{{ if $is_list }} btn-xs{{end}}">
+  {{ .name }}
+</a>
+{{ end }}

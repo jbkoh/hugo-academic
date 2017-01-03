@@ -704,6 +704,11 @@ footer a#back_to_top i {
   background: #0095eb;
 }
 
+.btn-secondary{
+  border-color: #ff9900;
+  background: #ff9900;
+}
+
 /*************************************************
  *  Toolbar Buttons
  **************************************************/
@@ -742,9 +747,19 @@ footer a#back_to_top i {
   transition: all .5s;
 }
 
+.btn-secondary.btn-outline {
+  color: #ff9900;
+  border-color: #ff9900;
+}
+
 .btn-primary.btn-outline {
   color: #0095eb;
   border-color: #0095eb;
+}
+
+.btn-secondary.btn-outline {
+  color: #ff9900;
+  border-color: #ff9900;
 }
 
 .btn-success.btn-outline {
